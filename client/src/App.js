@@ -5,6 +5,7 @@ import "./styles/styles.scss";
 import Navbar from "./components/layout/Navbar";
 import data from "./data/vehicle.json";
 import View from "./components/vehicle/View";
+import Edit from "./components/vehicle/Edit";
 
 let vehicleData = {
   name: data.name,
@@ -23,6 +24,7 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path="/" component={View} />
+            <Route exact path="/edit" component={Edit} />
           </Switch>
         </div>
       </BrowserRouter>

@@ -9,3 +9,14 @@ body {
   margin: 0;
   line-height: 1.5;
 }
+.myLink {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: $blue-color;
+  font-size: 30px;
+}
+.myLink:hover {
+  text-decoration: none;
+  color: $blue-color;
+  cursor: pointer;
+}
