@@ -1,0 +1,6 @@
+$blue-color: #23c3cf;
+$border-color: #b0b2b4;
+$grey-color: #eff3f6;
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
