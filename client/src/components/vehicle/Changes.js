@@ -53,7 +53,7 @@ class Changes extends Component {
                             this.props.current[item.name] ? (
                               <div
                                 key={i}
-                                className="d-flex justify-content-between"
+                                className="d-flex justify-content-between unit"
                               >
                                 <div className="left">{item.title}</div>
                                 <div className="right">

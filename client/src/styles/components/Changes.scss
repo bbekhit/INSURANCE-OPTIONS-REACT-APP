@@ -10,6 +10,12 @@
   }
   .body {
     padding: 40px 30px;
+    .unit {
+      margin-bottom: 25px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
     .right {
       font-weight: bold;
       display: flex;

@@ -1,6 +1,7 @@
 ### `npm start`
 
-change directory to client folder(cd client) and then use commant npm statrt in terminal.<br>
+change directory to client folder(cd client) and then use command npm install to install all<br>
+dependencies then run npm statrt in terminal.<br>
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
